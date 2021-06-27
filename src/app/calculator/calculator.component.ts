@@ -10,7 +10,7 @@ export class CalculatorComponent /*implements OnInit*/ {
 
   a: number = 0;
   b: number = 0;
-  operator: string = '';
+  operator: string = "";
   result;
   
   constructor(service: CalculatorService){

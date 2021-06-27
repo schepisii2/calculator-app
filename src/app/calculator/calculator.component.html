@@ -1,9 +1,9 @@
-<p><input type="number" ng-model="a"></p>
-<p><input type="number" ng-model="b"></p>
-<p><select ng-model="operator">
+<p><input type="number" id="a"></p>
+<p><input type="number" id="b"></p>
+<p><select id="operator">
     <option>+</option>
     <option>*</option>
     <option>-</option>
     <option>/</option>
     </select></p>
-<button>{{ result }}</button>
+<button type="submit" onclick="getResult(a, b, operator);">Result</button>
